@@ -1,5 +1,5 @@
 html {
-    background: black url(header.jpg) no-repeat center fixed; 
+    background: white url(header.jpg) no-repeat center fixed; 
     background-size: cover;
 }
 .main {
