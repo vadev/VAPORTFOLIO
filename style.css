@@ -1,0 +1,30 @@
+@font-face {
+    font-family: sans-serif;
+  }
+html {
+    background: black url(header.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+.main {
+  width: 100%;
+  font-family: monaco;
+}
+.text {
+  color: white;
+  text-align: left;
+  padding: 15px;
+  font-size: 20px;
+}
+.icons {
+  padding: 15px;
+}
+.icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+.icon img {
+  width: 48px;
+}
+.clearfix {
+  clear: both;
+}
