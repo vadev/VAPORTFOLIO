@@ -1,6 +1,3 @@
-@font-face {
-    font-family: timesnewroman;
-  }
 html {
     background: black url(header.jpg) no-repeat center fixed; 
     background-size: cover;
@@ -9,7 +6,7 @@ html {
   width: 100%;
   font-family: monaco;
 }
-.text {
+.about {
   color: white;
   text-align: left;
   padding: 15px;
