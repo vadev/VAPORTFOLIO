@@ -1,2 +1,2 @@
-# Please Wait, we are uploading our portfolio!
+# VAPORTFOLIO
 vadev.github.io/VAPORTFOLIO
