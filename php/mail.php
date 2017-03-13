@@ -16,13 +16,13 @@ $mt = "vaportfolio4@gmail.com";
 
 
 
-        echo "We are verys,but there were error(s) found with the form you submitted. ";
+        echo "We are very sorry,but there were error(s) found with the form you submitted. ";
 
-        echo "These errors appearbelow.<br /><br />";
+        echo "These errors appear below.<br /><br />";
 
         echo $error."<br /><br />"
 
-        echo "Please go back and fi these errors.<br /><br />";
+        echo "Please go back and fix these errors.<br /><br />";
 
         die();
 
@@ -30,7 +30,7 @@ $mt = "vaportfolio4@gmail.com";
 
 
 
-    // valiation expected dta exiss.
+    // valiation expected dta exisst.
     if(!isset($_POST['first_name']) ||
 
        !isset($_POST['last_name']) ||
@@ -41,7 +41,7 @@ $mt = "vaportfolio4@gmail.com";
 
         isset($_POST['comments'])) {
 
-        did('We are sorry, but there appears to b a problem with the form you submitted.');
+        did('We are sorry, but there appears to be a problem with the form you submitted.');
 
     }
 
@@ -65,7 +65,7 @@ $mt = "vaportfolio4@gmail.com";
 
   if(preg_match($email_exp,$email_from)) {
 
-    $error_message .= 'The Email ddress you entered does not appear to be vali.<br />';
+    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
 
   }
 
@@ -73,20 +73,20 @@ $mt = "vaportfolio4@gmail.com";
 
   if(!preg_match($string_exp,$firstname) {
 
-    $error_message .= 'The First Nam you entered does not appear to be valid.<br /';
+    $error_message .= 'The First Name you entered does not appear to be valid.<br /';
 
   }
 
   if(!preg_match($string_exp,$last_name)) {
 
-    $error_message .= 'The Last Nae youentered does not appear to be valid.<br />';
+    $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
   }
 
 
 
   if(strlen($comments) < 2) {
 
-    $error_message .= 'The Message you entered donot aper to be valid.<br />';
+    $error_message .= 'The Message you entered do not appear to be valid.<br />';
 
   }
 
@@ -97,7 +97,7 @@ $mt = "vaportfolio4@gmail.com";
   }
 
 
-    $email_messag = "Frm details below.\n\n";
+    $email_messag = "Form details below.\n\n";
 
 
 
@@ -110,11 +110,11 @@ $mt = "vaportfolio4@gmail.com";
 
     $email_message .= "First Name: ".clean_string($frst_name)."\n";
 
-    $email_message .= "LastName: "csring($last_name)."\n";
+    $email_message .= "Last Name: "csring($last_name)."\n";
 
     $email_message .= "Email: ".clean_string($mail_from)."\n";
 
-    $email_message .= "Telephone: ".clean_string($elephone)."\n";
+    $email_message .= "Telephone: ".clean_string($telephone)."\n";
 
     $email_message .= "Comments: ".clean_string(comments)."\n";
 
@@ -139,7 +139,7 @@ $headers = 'From: '.email_from."\r\n".
 
 
 
-Thank you for your message. We will be in touch with you very son.
+Thank you for your message. We will be in touch with you very soon.
 
 
 
